@@ -46,7 +46,7 @@ function CreateHtmlStorage() {
                             <td>${task.description}</td>
                             <td>${task.responsible}</td>
                             <td>${task.eta}</td>
-                            <td class=" d-flex align-items-center"><div class="form-check form-switch">
+                            <td class=" d-rl"><div class="form-check form-switch">
         <input class="form-check-input" type="checkbox" id="completed-${index}" onchange="ToggleCompletion(${index})" ${
         task.completed ? "checked" : ""
       }>

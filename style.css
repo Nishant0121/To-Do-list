@@ -1,3 +1,6 @@
 .bg-blue {
   background-color: #5bbcff;
 }
+.d-rl {
+  display: revert-layer;
+}
